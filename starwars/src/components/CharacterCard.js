@@ -9,8 +9,12 @@ function CharacterCard (props){
             <h2>
                 {props.name}
             </h2>
-            <p>{props.birth}</p>
-            <p>{props.gender}</p>
+            <p>Birth Year: {props.birth}</p>
+            <p>Gender: {props.gender}</p>
+            <p>Height: {props.height}</p>
+            <p>Mass: {props.mass}</p>
+            <p>Skin Color: {props.skin}</p>
+            <p>Number of Films: {props.films.length}</p>
         </div>
 
     )
